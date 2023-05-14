@@ -68,3 +68,10 @@ Get all users whose age is not less than 20
 db.users.find({$expr: {$gt:["debt","balance"]}})
 
 'debt' is greater than 'balance'
+
+update() is like find()
+
+- update more properties: 'rename' the 'key' 
+- and remove a property by 'unset' like $unset: {age:""}. age will be completely removed from the object
+- add a property in array object, we use 'push'
+- remove a property in array object, we use 'push'
