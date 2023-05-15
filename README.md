@@ -1,5 +1,5 @@
 ### Facts about MongoDB:
-
+---
 
 - MongoDB is a NoSQL database(not only SQL) is not true, `MongoDB can use SQL`
 - MongoDB is a non-relational database is not true, `you can store relational data in mongo db.` It just stored differently than relational database.
@@ -10,7 +10,8 @@
 JSON is structured as objects containing key value pairs
 MongoDB Atlas - cloud database
 
-### Terminology
+### Terminology:
+---
 
 ***Collection:*** A grouping of documents inside of a database. This is the **same as a table in
 SQL** and usually each type of data (users, posts, products) will have its own
@@ -27,6 +28,7 @@ and MongoDB is that a field can contain values such as JSON objects, and
 arrays instead of just strings, number, booleans, etc.
 
 ### Install MongoDB community edition
+---
 
 [MongoDB + mongosh installation process](https://www.golinuxcloud.com/install-mongodb-rocky-linux/)
 
