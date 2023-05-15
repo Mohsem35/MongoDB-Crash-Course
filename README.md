@@ -1,9 +1,9 @@
-Facts about MongoDB:
+### Facts about MongoDB:
 
-1. MongoDB is a NoSQL database(not only SQL) is not true, MongoDB can use SQL
+- MongoDB is a NoSQL database(not only SQL) is not true, MongoDB can use SQL
 
-2. MongoDB is a non-relational database is not true,you can store relational data in mongo db. It just stored differently than relational database
-3. Document database, data is stored in BSON(binary JSON) under the hood but is represented as JSON
+- MongoDB is a non-relational database is not true,you can store relational data in mongo db. It just stored differently than relational database
+- Document database, data is stored in BSON(binary JSON) under the hood but is represented as JSON
 
 Schema in MongoDB: optional and flexible
 
