@@ -29,9 +29,9 @@ doesn't need any semicolon(;) for ending of the query like SQL.
 
 
 test> db.users.insertOne({name: "kyle"})
-
+```
 test> db.users.insertOne({name: "walker", age: 23, address: {street: "park street", road: 34}, hobbies: ["Running","Travelling","Learning new technologies"]})
-
+```
 1.
 { $in: ["Kyle", "Sally"]
 if the name is in this list of names. is the name 'kyle' or is the name 'sally'
