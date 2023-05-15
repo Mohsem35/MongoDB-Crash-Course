@@ -6,6 +6,7 @@
 - Document database, `data is stored in BSON(binary JSON) under the hood but is represented as JSON`
 - Schema in MongoDB is optional and flexible.
 - MongoDB syntax is `very similar to JavaScript.`
+- Doesn't need any semicolon(;) for ending of the query like SQL.
 
 JSON is structured as objects containing key value pairs
 MongoDB Atlas - cloud database
@@ -36,11 +37,6 @@ arrays instead of just strings, number, booleans, etc.
 $ mongosh
 >test : test database by default
 ```
-mongodb syntax is very similar to javascript
-
-every single object{} you store inside of a database in mongodb is called document.
-documents live in collections
-collections live inside of databases
 
 doesn't need any semicolon(;) for ending of the query like SQL.
 
